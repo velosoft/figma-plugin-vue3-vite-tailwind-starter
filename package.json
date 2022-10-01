@@ -1,0 +1,30 @@
+{
+  "name": "figma-vue3-vite-starter",
+  "description": "CODE.FUN Figma Plugin Starter",
+  "author": "https://code.fun",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "build": "vue-tsc --noEmit && vite build && vite build --config vite.config.figma.ts",
+    "preview": "vite preview",
+    "zip": "zip -r $npm_package_name.v$npm_package_version.zip ./dist manifest.json"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "*",
+    "@types/node": "^18.7.23",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "autoprefixer": "^10.4.12",
+    "jsdom": "^20.0.0",
+    "postcss": "^8.4.17",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vite-plugin-singlefile": "^0.12.1",
+    "vue-tsc": "^0.40.4"
+  }
+}

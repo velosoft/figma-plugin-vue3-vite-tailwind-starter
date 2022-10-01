@@ -1,0 +1,11 @@
+{
+  "name": "codefun-figma-starter",
+  "id": "1157690545956655183",
+  "api": "1.0.0",
+  "main": "dist/figma.js",
+  "editorType": [
+    "figma",
+    "figjam"
+  ],
+  "ui": "dist/index.html"
+}
